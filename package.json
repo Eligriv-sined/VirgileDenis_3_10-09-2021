@@ -1,0 +1,19 @@
+{
+  "name": "virgiledenis_3_10-09-2021",
+  "version": "1.0.0",
+  "description": "P3 openclassroom",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eligriv-sined/VirgileDenis_3_10-09-2021.git"
+  },
+  "author": "Virgile Denis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eligriv-sined/VirgileDenis_3_10-09-2021/issues"
+  },
+  "homepage": "https://github.com/Eligriv-sined/VirgileDenis_3_10-09-2021#readme"
+}
