@@ -1,3 +1,70 @@
+@charset "UTF-8";
+#navliens {
+  display: flex;
+  flex-direction: column;
+}
 
+#restaurants {
+  display: flex;
+  height: auto;
+  border: transparent 1px;
+  border-radius: 8%;
+  background-color: #f2f2f2;
+  width: 32%;
+  flex-direction: column;
+  box-shadow: 3px 3px 3px 3px #f2f2f2;
+}
+
+#La-palette_du_goût {
+  display: flex;
+  border: 1px transparent;
+  background-image: url(/images/restaurants/lapalettedugout.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  height: 20em;
+  width: 30em;
+}
+
+#la-note-enchanté {
+  display: flex;
+  border: 1px transparent;
+  background-image: url(/images/restaurants/la\ note\ enchantée.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  height: 20em;
+  width: 30em;
+}
+
+#a-la-française {
+  display: flex;
+  border: 1px transparent;
+  background-image: url(/images/restaurants/alafrançaise.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  height: 20em;
+  width: 30em;
+}
+
+#le-delice-des-sens {
+  display: flex;
+  border: 1px transparent;
+  background-image: url(/images/restaurants/delicedessens.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  height: 20em;
+  width: 30em;
+}
+
+.boite {
+  display: flex;
+}
 
 /*# sourceMappingURL=styles.css.map */

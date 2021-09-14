@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,SAAS,CACT;EACI,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CAEzB",
+    "sources": [
+        "main.scss",
+        "utils/_variables.scss",
+        "disposition/nav.scss",
+        "disposition/body.scss",
+        "disposition/restaurant.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

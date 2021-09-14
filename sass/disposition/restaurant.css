@@ -1,0 +1,15 @@
+@charset "UTF-8";
+#La-palette_du_goût {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid black;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-image: url(/images/restaurants/lapalettedugout.jpg);
+  height: 7em;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=restaurant.css.map */
