@@ -1,15 +1,113 @@
 @charset "UTF-8";
+#restaurants {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  border: transparent 1px;
+  border-radius: 8%;
+  background-color: #f2f2f2;
+  width: 32%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 3px 3px 3px 3px #f2f2f2;
+          box-shadow: 3px 3px 3px 3px #f2f2f2;
+}
+
 #La-palette_du_goût {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px solid black;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  border: 1px transparent;
   background-image: url(/images/restaurants/lapalettedugout.jpg);
-  height: 7em;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  height: 20em;
+  width: 30em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  margin-bottom: 5%;
+}
+
+#la-note-enchanté {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px transparent;
+  background-image: url(/images/restaurants/la-note-enchantée.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 30px;
+  height: 20em;
+  width: 30em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  margin-bottom: 5%;
+}
+
+#a-la-française {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px transparent;
+  background-image: url(/images/restaurants/alafrançaise.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  height: 20em;
+  width: 30em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  margin-bottom: 5%;
+}
+
+#le-delice-des-sens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px transparent;
+  background-image: url(/images/restaurants/delicedessens.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  height: 20em;
+  width: 30em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  margin-bottom: 5%;
+}
+
+.textresto {
+  background-color: white;
+  width: 29.7em;
+  border-radius: 10px;
+  padding-left: 1%;
+  padding-bottom: 3%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid black;
+}
+
+.boite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=restaurant.css.map */

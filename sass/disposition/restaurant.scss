@@ -8,6 +8,7 @@
     width: 32%;
     flex-direction: column;      
     box-shadow: 3px 3px 3px 3px #f2f2f2;
+    
  }
 
 #La-palette_du_goût
@@ -15,12 +16,14 @@
     display: flex;
     border: 1px transparent;
     background-image: url(/images/restaurants/lapalettedugout.jpg);
-    background-position: center;
+    background-position: bottom ;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
     height: 20em;
     width: 30em;
+    flex-direction: column-reverse;  
+    margin-bottom: 5%;    
 }
 
 
@@ -28,13 +31,15 @@
 {
     display: flex;
     border: 1px transparent;
-    background-image: url(/images/restaurants/la\ note\ enchantée.jpg);
+    background-image: url(/images/restaurants/la-note-enchantée.jpg);    
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
     height: 20em;
     width: 30em;
+    flex-direction: column-reverse;  
+    margin-bottom: 5%;    
 }
 
 
@@ -49,6 +54,8 @@
     border-radius: 30px;
     height: 20em;
     width: 30em;
+    flex-direction: column-reverse;  
+    margin-bottom: 5%;    
 }
 
 
@@ -63,9 +70,20 @@
     border-radius: 30px;
     height: 20em;
     width: 30em;
+    flex-direction: column-reverse;  
+    margin-bottom: 5%;    
 }
 
-
+.textresto
+{
+    background-color: white;
+    width: 29.7em;
+    border-radius: 10px;
+    padding-left: 1%;
+    padding-bottom: 3%;
+    flex-direction: column;
+    border: 1px solid black;
+}
 
 .boite
 {
