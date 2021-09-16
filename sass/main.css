@@ -22,6 +22,18 @@ body {
           flex-direction: column;
 }
 
+.menus {
+  border: 1px solid black;
+  border-radius: 10%;
+  background-color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 #restaurants {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,7 +57,7 @@ body {
   display: flex;
   border: 1px transparent;
   background-image: url(/images/restaurants/lapalettedugout.jpg);
-  background-position: top;
+  background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 30px;
@@ -132,5 +144,24 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.liens {
+  border: blue 1px solid;
+  border-radius: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer {
+  background-color: black;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
