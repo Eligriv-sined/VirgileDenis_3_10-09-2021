@@ -18,6 +18,14 @@ body {
   align-items: center;
 }
 
+.liens {
+  border: blue 1px solid;
+  border-radius: 10px;
+  justify-content: space-between;
+  justify-content: center;
+  display: flex;
+}
+
 #restaurants {
   display: flex;
   height: auto;
@@ -99,12 +107,23 @@ body {
   display: flex;
 }
 
-.liens {
-  border: blue 1px solid;
+.btn {
+  background-color: #FF79DA;
   border-radius: 10px;
-  justify-content: space-between;
-  justify-content: center;
+  border: 1px transparent;
+  color: white;
+  height: 2em;
+  width: auto;
   display: flex;
+  justify-content: center;
+  padding-top: 1.5%;
+}
+
+.explo {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  margin-top: 2%;
 }
 
 footer {

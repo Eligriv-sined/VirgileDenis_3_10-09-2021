@@ -22,4 +22,18 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.liens {
+  border: blue 1px solid;
+  border-radius: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=body.css.map */

@@ -2,8 +2,7 @@ body
 {
     display: flex;
    align-items: center;
-   flex-direction: column;
-   
+   flex-direction: column; 
 }
 
 .menus
@@ -14,4 +13,13 @@ body
     display: flex;
     align-items: center;
 
+}
+
+.liens
+{
+   border: blue 1px solid;
+   border-radius: 10px;
+   justify-content: space-between;
+   justify-content: center;
+   display: flex;   
 }
