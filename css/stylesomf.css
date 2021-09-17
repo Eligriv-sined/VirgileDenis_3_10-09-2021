@@ -125,6 +125,7 @@ main li {
   padding-bottom: 3%;
   flex-direction: column;
   border: 1px solid black;
+  white-space: nowrap;
 }
 
 .boite {
@@ -141,6 +142,13 @@ main li {
   justify-content: center;
   margin-left: 80%;
   margin-bottom: 25%;
+}
+
+.coeur {
+  color: red;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3%;
 }
 
 .btn {
