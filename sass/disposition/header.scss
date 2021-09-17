@@ -9,6 +9,10 @@
    display: flex;
    justify-content: center;
    padding-top: 1.5%;
+   width: 50%;
+   align-self: center;
+  
+   
   
 }
 
@@ -19,4 +23,15 @@
    background-color: whitesmoke;
    margin-top: 2%;
    height: 12em;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+  
+   
+}
+
+.retour
+{
+   font-size: xx-large;
+   color: red;
 }
