@@ -4,7 +4,7 @@
   "description": "P3 openclassroom",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+    "sass": "sass --watch ./sass/main.scss:./css/stylesomf.css"
   },
   "repository": {
     "type": "git",
