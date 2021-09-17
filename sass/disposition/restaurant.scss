@@ -90,3 +90,17 @@
     display: flex;
 
 }
+
+
+.new
+{
+    color :$vert;
+   border: 1px solid $vert;
+   border-radius: 10px;
+   width: 15%;
+   background-color: green;
+   display: flex;
+   justify-content: center;
+   margin-left: 80%;
+   margin-bottom: 25%;
+}
