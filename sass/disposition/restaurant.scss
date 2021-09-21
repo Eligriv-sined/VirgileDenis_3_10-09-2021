@@ -1,3 +1,7 @@
+
+@media  all and (max-width : 800px) and (min-width:100px)
+{
+
 #restaurants
  {
      display: flex;
@@ -7,6 +11,7 @@
     background-color: #f2f2f2;
     flex-direction: column;      
     box-shadow: 3px 3px 3px 3px #f2f2f2;
+    width: 90%;
     
  }
 
@@ -21,7 +26,9 @@
     border-radius: 30px;
     height: 20em;
     flex-direction: column;  
-    margin-bottom: 5%;    
+    margin-bottom: 5%; 
+    width: 99%;  
+
 }
 
 
@@ -36,7 +43,8 @@
     border-radius: 30px;
     height: 20em;
     flex-direction: column;  
-    margin-bottom: 5%;    
+    margin-bottom: 5%; 
+    width: 99%;    
 }
 
 
@@ -51,7 +59,8 @@
     border-radius: 30px;
     height: 20em;
     flex-direction: column-reverse;  
-    margin-bottom: 5%;    
+    margin-bottom: 5%;   
+    width: 99%;  
 }
 
 
@@ -66,7 +75,8 @@
     border-radius: 30px;
     height: 20em;
     flex-direction: column-reverse;  
-    margin-bottom: 5%;    
+    margin-bottom: 5%; 
+    width: 99%;    
 }
 
 .textresto
@@ -80,6 +90,7 @@
     flex-direction: column;
     border: 1px solid black;
     white-space: nowrap;
+    width: 99%; 
 }
 
 .boite
@@ -90,16 +101,16 @@
 
 .new
 {
-    color :$vert;
+    height: 3.5em;
+    color :rgb(11, 94, 11);
    border: 1px solid $vert;
    border-radius: 10px;
    width: 15%;
-   background-color: green;
+   background-color: $vert;
    display: flex;
-   justify-content: center;
    margin-left: 80%;
-   margin-bottom: 32%;
+   margin-bottom: 35%;
    margin-top: 8%;
 }
-
+}
 

@@ -1,26 +1,39 @@
+
+@media  all and (max-width : 800px) and (min-width:100px)
+{
+
 .bullelogo
 {
-    border: 1px solid black;
-    width: 5%;
-    border-radius: 50%;
+    color: white;
+    border-radius: 50px;
     display: flex;
     justify-content: center;
-    background-color: blueviolet;
-    margin-right: 5%;
-    margin-top: 5%;
+    align-items:center;
+    cursor: pointer;
+    flex-direction: column;
+    background-color: $violet;
+    width: 8.5%;
+    height: 1.70em;
+    margin-right: 2%;
+    
+    
 }
 
 .logo
 {
-    display:flex;
-    border: 1px solid black; 
-    border-radius: 10px;
+    border-radius: 50px;
+    display: flex;
     justify-content: center;
-    font-size:large;
-    background-color: grey;
-    height: 2em;
-    align-items: center;
+    align-items:center;
+    justify-content: space-between;
+    width: 80%;
+    padding-right: 10%;
+    margin-bottom: 5%;
+    align-content: center;
+    box-shadow: grey 1px 1px 1px 1px;
+    height: 2.9em;
 }
 
+}
 
 
