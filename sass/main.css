@@ -1,12 +1,34 @@
 @charset "UTF-8";
-#navliens {
+.bullelogo {
+  border: 1px solid black;
+  width: 5%;
+  border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: blueviolet;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: large;
+  background-color: grey;
+  height: 2em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body {
@@ -20,6 +42,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: auto;
 }
 
 body a {
@@ -45,36 +68,6 @@ main li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.menus {
-  border: 1px solid black;
-  border-radius: 10%;
-  background-color: grey;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.liens {
-  border: blue 1px solid;
-  border-radius: 10px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .logohead {
@@ -123,9 +116,9 @@ main li {
   height: 20em;
   width: 30em;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-bottom: 5%;
 }
 
@@ -224,13 +217,19 @@ main li {
 
 .coeur {
   color: red;
+  margin-left: 90%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  margin-right: 3%;
+  font-size: xx-large;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  border: 1PX solid black;
 }
 
 .btn {
@@ -299,35 +298,57 @@ footer li {
   width: 100%;
 }
 
-.p1 {
-  background-image: url(/images/restaurants/lapalettedugout.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.p2 {
-  background-image: url(/images/restaurants/la-note-enchantée.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.p3 {
-  background-image: url(/images/restaurants/alafrançaise.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.p4 {
-  background-image: url(/images/restaurants/delicedessens.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 h1 {
   font-family: "Shrikhaland";
 }
 
 body {
   font-family: "Roboto";
+}
+
+.menus {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #e9e3e3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.menuspalette {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.boitemenus {
+  width: 100%;
+  margin-bottom: 5%;
+  background-color: whitesmoke;
+}
+
+.btnmenus {
+  background-color: #FF79DA;
+  border-radius: 10px;
+  border: 1px transparent;
+  color: white;
+  height: 2em;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1.5%;
+  width: 50%;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 /*# sourceMappingURL=main.css.map */

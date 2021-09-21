@@ -1,0 +1,46 @@
+.menus {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #e9e3e3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.menuspalette {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.boitemenus {
+  width: 100%;
+  margin-bottom: 5%;
+  background-color: whitesmoke;
+}
+
+.btnmenus {
+  background-color: #FF79DA;
+  border-radius: 10px;
+  border: 1px transparent;
+  color: white;
+  height: 2em;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1.5%;
+  width: 50%;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+/*# sourceMappingURL=menus.css.map */
