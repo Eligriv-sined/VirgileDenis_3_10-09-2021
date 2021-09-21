@@ -11,6 +11,7 @@
 .menuspalette
 {
     flex-direction: column;
+    width: 100%;
     
 }
 .boitemenus
@@ -18,10 +19,17 @@
     width: 100%;
     margin-bottom: 5%;
     background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px whitesmoke;
+    width: 98%;
+    display: flex;
+    padding-left: 1%;
 }
 
 .btnmenus
 {
+    margin-left: 25%;
     background-color :#FF79DA ;
    border-radius: 10px;
    border : 1px transparent; 

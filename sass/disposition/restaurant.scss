@@ -5,7 +5,6 @@
     border:transparent 1px;
     border-radius: 8%;
     background-color: #f2f2f2;
-    width: 32%;
     flex-direction: column;      
     box-shadow: 3px 3px 3px 3px #f2f2f2;
     
@@ -15,13 +14,12 @@
 {
     display: flex;
     border: 1px transparent;
-    background-image: url(images/restaurants/lapalettedugout.jpg);
+    background-image: url(/images/restaurants/lapalettedugout.jpg);
     background-position: bottom ;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
     height: 20em;
-    width: 30em;
     flex-direction: column;  
     margin-bottom: 5%;    
 }
@@ -31,14 +29,13 @@
 {
     display: flex;
     border: 1px transparent;
-    background-image: url(images/restaurants/la-note-enchantée.jpg);    
+    background-image: url(/images/restaurants/la-note-enchantée.jpg);    
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
     height: 20em;
-    width: 30em;
-    flex-direction: column-reverse;  
+    flex-direction: column;  
     margin-bottom: 5%;    
 }
 
@@ -47,13 +44,12 @@
 {
     display: flex;
     border: 1px transparent;
-    background-image: url(images/restaurants/alafrançaise.jpg);
+    background-image: url(/images/restaurants/alafrançaise.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
     height: 20em;
-    width: 30em;
     flex-direction: column-reverse;  
     margin-bottom: 5%;    
 }
@@ -63,13 +59,12 @@
 {
     display: flex;
     border: 1px transparent;
-    background-image: url(images/restaurants/delicedessens.jpg);
+    background-image: url(/images/restaurants/delicedessens.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
     height: 20em;
-    width: 30em;
     flex-direction: column-reverse;  
     margin-bottom: 5%;    
 }
@@ -78,7 +73,7 @@
 {
 
     background-color: white;
-    width: 29.7em;
+    width: 23.5em;
     border-radius: 10px;
     padding-left: 1%;
     padding-bottom: 3%;
@@ -103,19 +98,8 @@
    display: flex;
    justify-content: center;
    margin-left: 80%;
-   margin-bottom: 25%;
+   margin-bottom: 32%;
+   margin-top: 8%;
 }
 
 
-.coeur
-{
-   color: red; 
-   margin-left:90%;
-   flex-direction: row-reverse;
-   display: flex;
-   font-size: xx-large;
-   justify-content: right;
-   border: 1PX solid black;
-   
-  
-}

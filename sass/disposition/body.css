@@ -1,15 +1,9 @@
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: auto;
+  width: 100%;
 }
 
 body a {
@@ -37,13 +31,6 @@ main li {
           flex-direction: column;
 }
 
-.logohead {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 12%;
-}
-
 #localisation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,5 +38,13 @@ main li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media all and (max-width: 800px) and (min-width: 100px) {
+  body {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=body.css.map */

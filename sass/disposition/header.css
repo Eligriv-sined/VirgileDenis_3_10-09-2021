@@ -36,6 +36,20 @@
 
 .retour {
   font-size: xx-large;
-  color: red;
+  color: black;
+}
+
+@media all and (max-width: 800px) and (min-width: 100px) {
+  header {
+    font-size: small;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .logohead {
+    width: 90%;
+    padding-left: 0%;
+  }
 }
 /*# sourceMappingURL=header.css.map */

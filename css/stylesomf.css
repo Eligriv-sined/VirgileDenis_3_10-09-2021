@@ -22,10 +22,8 @@
 }
 
 body {
-  display: flex;
-  align-items: center;
   flex-direction: column;
-  width: auto;
+  width: 100%;
 }
 body a {
   text-decoration: none;
@@ -41,23 +39,22 @@ main li {
   flex-direction: column;
 }
 
-.logohead {
-  display: flex;
-  padding-left: 12%;
-}
-
 #localisation {
   display: flex;
   justify-content: center;
 }
 
+@media all and (max-width: 800px) and (min-width: 100px) {
+  body {
+    align-items: center;
+  }
+}
 #restaurants {
   display: flex;
   height: auto;
   border: transparent 1px;
   border-radius: 8%;
   background-color: #f2f2f2;
-  width: 32%;
   flex-direction: column;
   box-shadow: 3px 3px 3px 3px #f2f2f2;
 }
@@ -71,7 +68,6 @@ main li {
   background-repeat: no-repeat;
   border-radius: 30px;
   height: 20em;
-  width: 30em;
   flex-direction: column;
   margin-bottom: 5%;
 }
@@ -85,8 +81,7 @@ main li {
   background-repeat: no-repeat;
   border-radius: 30px;
   height: 20em;
-  width: 30em;
-  flex-direction: column-reverse;
+  flex-direction: column;
   margin-bottom: 5%;
 }
 
@@ -99,7 +94,6 @@ main li {
   background-repeat: no-repeat;
   border-radius: 30px;
   height: 20em;
-  width: 30em;
   flex-direction: column-reverse;
   margin-bottom: 5%;
 }
@@ -113,14 +107,13 @@ main li {
   background-repeat: no-repeat;
   border-radius: 30px;
   height: 20em;
-  width: 30em;
   flex-direction: column-reverse;
   margin-bottom: 5%;
 }
 
 .textresto {
   background-color: white;
-  width: 29.7em;
+  width: 23.5em;
   border-radius: 10px;
   padding-left: 1%;
   padding-bottom: 3%;
@@ -142,17 +135,8 @@ main li {
   display: flex;
   justify-content: center;
   margin-left: 80%;
-  margin-bottom: 25%;
-}
-
-.coeur {
-  color: red;
-  margin-left: 90%;
-  flex-direction: row-reverse;
-  display: flex;
-  font-size: xx-large;
-  justify-content: right;
-  border: 1PX solid black;
+  margin-bottom: 32%;
+  margin-top: 8%;
 }
 
 .btn {
@@ -182,13 +166,25 @@ main li {
 
 .retour {
   font-size: xx-large;
-  color: red;
+  color: black;
 }
 
+@media all and (max-width: 800px) and (min-width: 100px) {
+  header {
+    font-size: small;
+    align-items: center;
+    width: 100%;
+  }
+
+  .logohead {
+    width: 90%;
+    padding-left: 0%;
+  }
+}
 footer {
   background-color: #585454;
   color: white;
-  width: 100%;
+  width: 23.5em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -219,15 +215,23 @@ body {
 
 .menuspalette {
   flex-direction: column;
+  width: 100%;
 }
 
 .boitemenus {
   width: 100%;
   margin-bottom: 5%;
   background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px whitesmoke;
+  width: 98%;
+  display: flex;
+  padding-left: 1%;
 }
 
 .btnmenus {
+  margin-left: 25%;
   background-color: #FF79DA;
   border-radius: 10px;
   border: 1px transparent;
