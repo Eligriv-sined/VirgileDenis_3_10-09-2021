@@ -22,7 +22,7 @@
     border-radius: 30px;
     height: 20em;
     width: 30em;
-    flex-direction: column-reverse;  
+    flex-direction: column;  
     margin-bottom: 5%;    
 }
 
@@ -76,6 +76,7 @@
 
 .textresto
 {
+
     background-color: white;
     width: 29.7em;
     border-radius: 10px;
@@ -83,12 +84,12 @@
     padding-bottom: 3%;
     flex-direction: column;
     border: 1px solid black;
+    white-space: nowrap;
 }
 
 .boite
 {
     display: flex;
-
 }
 
 
@@ -103,4 +104,18 @@
    justify-content: center;
    margin-left: 80%;
    margin-bottom: 25%;
+}
+
+
+.coeur
+{
+   color: red; 
+   margin-left:90%;
+   flex-direction: row-reverse;
+   display: flex;
+   font-size: xx-large;
+   justify-content: right;
+   border: 1PX solid black;
+   
+  
 }

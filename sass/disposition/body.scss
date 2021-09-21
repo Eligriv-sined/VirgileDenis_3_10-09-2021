@@ -3,6 +3,7 @@ body
     display: flex;
    align-items: center;
    flex-direction: column; 
+   width: auto;
    a 
    {
        text-decoration: none;
@@ -20,26 +21,6 @@ main
     }
 }
 
-
-.menus
-{
-    border: 1px solid black;
-    border-radius: 10%;
-    background-color: grey;   
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-}
-
-.liens
-{
-   border: blue 1px solid;
-   border-radius: 10px;
-   justify-content: space-between;
-   justify-content: center;
-   display: flex;   
-}
 
 .logohead
 {

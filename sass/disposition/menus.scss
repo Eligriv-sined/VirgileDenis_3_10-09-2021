@@ -1,0 +1,36 @@
+
+.menus
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(233, 227, 227);   
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.menuspalette
+{
+    flex-direction: column;
+    
+}
+.boitemenus
+{
+    width: 100%;
+    margin-bottom: 5%;
+    background-color: whitesmoke;
+}
+
+.btnmenus
+{
+    background-color :#FF79DA ;
+   border-radius: 10px;
+   border : 1px transparent; 
+   color: white;
+   height: 2em;
+   width: auto;
+   display: flex;
+   justify-content: center;
+   padding-top: 1.5%;
+   width: 50%;
+   align-self: center;
+}
