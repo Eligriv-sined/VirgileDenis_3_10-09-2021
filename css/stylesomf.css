@@ -1,13 +1,31 @@
 @charset "UTF-8";
-#navliens {
+.bullelogo {
+  border: 1px solid black;
+  width: 5%;
+  border-radius: 50%;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  background-color: blueviolet;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.logo {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: large;
+  background-color: grey;
+  height: 2em;
+  align-items: center;
 }
 
 body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  width: auto;
 }
 body a {
   text-decoration: none;
@@ -21,23 +39,6 @@ main li {
   list-style: none;
   display: flex;
   flex-direction: column;
-}
-
-.menus {
-  border: 1px solid black;
-  border-radius: 10%;
-  background-color: grey;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.liens {
-  border: blue 1px solid;
-  border-radius: 10px;
-  justify-content: space-between;
-  justify-content: center;
-  display: flex;
 }
 
 .logohead {
@@ -71,7 +72,7 @@ main li {
   border-radius: 30px;
   height: 20em;
   width: 30em;
-  flex-direction: column-reverse;
+  flex-direction: column;
   margin-bottom: 5%;
 }
 
@@ -146,9 +147,12 @@ main li {
 
 .coeur {
   color: red;
+  margin-left: 90%;
+  flex-direction: row-reverse;
   display: flex;
-  justify-content: flex-end;
-  margin-right: 3%;
+  font-size: xx-large;
+  justify-content: right;
+  border: 1PX solid black;
 }
 
 .btn {
@@ -196,30 +200,6 @@ footer li {
   width: 100%;
 }
 
-.p1 {
-  background-image: url(/images/restaurants/lapalettedugout.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.p2 {
-  background-image: url(/images/restaurants/la-note-enchantée.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.p3 {
-  background-image: url(/images/restaurants/alafrançaise.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.p4 {
-  background-image: url(/images/restaurants/delicedessens.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 h1 {
   font-family: "Shrikhaland";
 }
@@ -228,4 +208,37 @@ body {
   font-family: "Roboto";
 }
 
-/*# sourceMappingURL=styles.css.map */
+.menus {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #e9e3e3;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.menuspalette {
+  flex-direction: column;
+}
+
+.boitemenus {
+  width: 100%;
+  margin-bottom: 5%;
+  background-color: whitesmoke;
+}
+
+.btnmenus {
+  background-color: #FF79DA;
+  border-radius: 10px;
+  border: 1px transparent;
+  color: white;
+  height: 2em;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5%;
+  width: 50%;
+  align-self: center;
+}
+
+/*# sourceMappingURL=stylesomf.css.map */
