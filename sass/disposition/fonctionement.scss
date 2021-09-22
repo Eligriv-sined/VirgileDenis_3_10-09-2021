@@ -12,11 +12,10 @@
     cursor: pointer;
     flex-direction: column;
     background-color: $violet;
-    width: 8.5%;
+    width: 10%;
     height: 1.70em;
     margin-right: 2%;
-    
-    
+
 }
 
 .logo
@@ -30,8 +29,9 @@
     padding-right: 10%;
     margin-bottom: 5%;
     align-content: center;
-    box-shadow: grey 1px 1px 1px 1px;
+    box-shadow: grey 0px 1px 1px 0px;
     height: 2.9em;
+    background-color: whitesmoke;
 }
 
 }

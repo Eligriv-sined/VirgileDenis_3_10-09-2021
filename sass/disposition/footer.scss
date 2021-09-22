@@ -1,12 +1,22 @@
+
+
+
 footer
 {
     display: flex;
     flex-direction: column;
-    background-color: rgb(88, 84, 84);
+    background-color: rgb(65, 60, 60);
     color: white;
     width: auto;
-
- li 
+h2
+{
+    font-family: "Shrikhand";
+    font-weight: bold;
+    padding-left: 10%;
+   
+    
+}
+    li 
     {
         list-style: none;
         margin-bottom: 2%;
