@@ -82,6 +82,8 @@
 .textresto
 {
 
+    display: grid;
+    grid-template-columns: 4fr 1fr;
     background-color: white;
     width: 23.5em;
     border-radius: 10px;
@@ -91,6 +93,12 @@
     border: 1px solid black;
     white-space: nowrap;
     width: 99%; 
+}
+
+.text
+{
+   width: 70%; 
+  
 }
 
 .boite
@@ -105,12 +113,25 @@
     color :rgb(11, 94, 11);
    border: 1px solid $vert;
    border-radius: 10px;
-   width: 15%;
+   width: 18%;
    background-color: $vert;
    display: flex;
    margin-left: 80%;
    margin-bottom: 35%;
    margin-top: 8%;
 }
+
+.coeurboite
+{
+
+    width: 50%;
+    padding-top: 50%;
+    color: red;
+    justify-content: flex-end;
+   margin-top: 5%;
+   font-size: xx-large;
+   
+}
+
 }
 

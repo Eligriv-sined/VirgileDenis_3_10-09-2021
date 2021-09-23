@@ -125,6 +125,8 @@ main li {
   }
 
   .textresto {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
     background-color: white;
     width: 23.5em;
     border-radius: 10px;
@@ -136,6 +138,10 @@ main li {
     width: 99%;
   }
 
+  .text {
+    width: 70%;
+  }
+
   .boite {
     display: flex;
   }
@@ -145,12 +151,21 @@ main li {
     color: #0b5e0b;
     border: 1px solid #99E2D0;
     border-radius: 10px;
-    width: 15%;
+    width: 18%;
     background-color: #99E2D0;
     display: flex;
     margin-left: 80%;
     margin-bottom: 35%;
     margin-top: 8%;
+  }
+
+  .coeurboite {
+    width: 50%;
+    padding-top: 50%;
+    color: red;
+    justify-content: flex-end;
+    margin-top: 5%;
+    font-size: xx-large;
   }
 }
 @media all and (max-width: 800px) and (min-width: 100px) {
@@ -171,7 +186,7 @@ main li {
   }
 
   .btn {
-    background-color: #FF79DA;
+    background: linear-gradient(#FF79DA, #9356DC);
     border-radius: 30px;
     border: 1px transparent;
     color: white;
@@ -231,11 +246,39 @@ footer li {
 }
 
 #imgfondfrançaise {
-  height: 25rem;
+  height: 20rem;
 }
 
 #imgfondimgfonddelice {
   height: 25rem;
+}
+
+@font-face {
+  src: url(../police/Roboto/Roboto-Bold.ttf);
+  font-family: "Roboto-bold";
+}
+@font-face {
+  src: url(../police/Roboto/Roboto-Regular.ttf);
+  font-family: "Roboto-reg";
+}
+@font-face {
+  src: url(../police/shrikhland/Shrikhand-Regular.ttf);
+  font-family: "Shrikhand";
+}
+header {
+  font-family: "Roboto-reg";
+}
+
+body {
+  font-family: "Roboto-reg";
+}
+
+.textmenus h2 {
+  font-family: "Shrikhand";
+}
+
+.gras {
+  font-family: "Roboto-bold";
 }
 
 .menuspalette {
@@ -263,7 +306,7 @@ footer li {
 }
 
 .btnmenus {
-  background-color: #FF79DA;
+  background: linear-gradient(#FF79DA, #9356DC);
   border-radius: 30px;
   border: 1px transparent;
   color: white;
@@ -292,15 +335,20 @@ footer li {
   margin-bottom: 5%;
   background-color: white;
   border-radius: 20px;
-  box-shadow: 2px 2px 2px 2px whitesmoke;
+  box-shadow: 3px 3px 3px 3px white;
   padding-left: 1%;
   height: auto;
   display: flex;
+  flex-direction: column;
 }
 
 .underlinevert {
   border-bottom: #99E2D0 1px solid;
   width: 8%;
+}
+
+.coeur {
+  padding-left: 20%;
 }
 
 /*# sourceMappingURL=stylesomf.css.map */

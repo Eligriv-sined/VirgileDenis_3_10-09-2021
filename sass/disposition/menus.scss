@@ -69,11 +69,17 @@
     padding-left: 1%;
     height: auto;
     display: flex;
-    
+    flex-direction: column;
+     
 }
 
 .underlinevert
 {
     border-bottom: $vert 1px solid ;
     width: 8%;
+}
+
+.coeur
+{
+    padding-left: 20%;
 }

@@ -2,7 +2,7 @@
 @font-face 
 
 {
-        src: url(/police/Roboto/Roboto-Bold.ttf) ; 
+        src: url(../police/Roboto/Roboto-Bold.ttf) ; 
         font-family: 'Roboto-bold';
 }
 
@@ -10,38 +10,36 @@
 @font-face 
 
 {
-        src: url(/police/Roboto/Roboto-Regular.ttf) ; 
+        src: url(../police/Roboto/Roboto-Regular.ttf) ; 
         font-family: 'Roboto-reg';
 }
 
 @font-face 
 
 {
-        src: url(/police/shrikhland/Shrikhand-Regular.ttf) ; 
+        src: url(../police/shrikhland/Shrikhand-Regular.ttf) ; 
         font-family: 'Shrikhand';
 }
 
 header
 {
     font-family: 'Roboto-reg';
-h1, h2
-{
-    font-family:'Shrikhand' ;
-     
-}
+
 }
 
 body
 {
-    h1, h2
-{
-    font-family:'Shrikhand' ;
-     
-}
     font-family:'Roboto-reg';
 }
 
-.bold
+.textmenus
 {
-    font-family:'Roboto-bold' ;
+    h2 
+     { font-family: 'Shrikhand';}
 }
+
+.gras
+{
+    font-family: 'Roboto-bold';   
+}
+
