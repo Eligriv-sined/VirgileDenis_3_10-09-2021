@@ -40,9 +40,8 @@ main
 .chargement
 {
     background-color:#16a085 ;
-    height: 500px; 
-    line-height: 500px;
-    
+    position : fixed;
+    cursor : wait;   
 }
 
 .loader
@@ -55,7 +54,7 @@ main
 }
 .quart-loader
 {
-    border: 6px solid rgba(255, 255, 255, 0.4);
+    border: 6px transparent rgba(255, 255, 255, 0.4);
     border-radius:50px;
 }
 
@@ -67,7 +66,7 @@ main
     position: absolute;
     top : -6px;
     left: 0px;
-    border-top: 6px solid transparent;
+    border-top: 6px solid ;
     border-radius: 50px;
     border-top-color:#fff ;
     animation: spin 1s linear infinite;
@@ -80,6 +79,7 @@ main
 
 }
 
+/*---fin du loader--*/
 
 @media  all and (max-width : 800px) and (min-width:100px)
 {
