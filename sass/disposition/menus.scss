@@ -27,24 +27,6 @@
     margin-top: -13.5%;
 }
 
-.btnmenus
-{
-
-  background: linear-gradient( $rose, $violet);
-   border-radius: 30px;
-   border : 1px transparent; 
-   color: white;
-   height: 2em;
-   width: auto;
-   display: flex;
-   justify-content: center;
-   padding-top: 1.5%;
-   width: 50%;
-   align-self: center;
-   margin-top: 10%;
-   margin-bottom: 10%;
-   box-shadow: 1px 1px 1px 1px whitesmoke;
-}
 
 .textmenus
 {
@@ -70,7 +52,8 @@
     height: auto;
     display: flex;
     flex-direction: column;
-     
+    justify-content: center;
+    align-content: center;
 }
 
 .underlinevert

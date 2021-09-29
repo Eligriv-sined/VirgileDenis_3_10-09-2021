@@ -1,34 +1,144 @@
 
-@media  all and (max-width : 800px) and (min-width:100px)
-{
 
-#restaurants
- {
-     display: flex;
-    height: auto;
-    border:transparent 1px;
-    border-radius: 8%;
-    background-color: #f2f2f2;
-    flex-direction: column;      
-    box-shadow: 3px 3px 3px 3px #f2f2f2;
-    width: 90%;
-    
- }
+.boite
+{
+    width: 100%;
+}
+
+.textresto
+{
+   
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 30%;
+    margin-right: 53%;
+    border-radius: 20px;  
+}
+
+.coeurboite
+{
+  
+    width: 50%;
+   padding-left: 40%;
+    color: red;
+    justify-content: flex-end;
+   margin-top: 25%;
+   font-size: xx-large;
+   
+}
+
+.new
+{
+    height: 3.5em;
+    color :rgb(11, 94, 11);
+   border: 1px solid $vert;
+   border-radius: 10px;
+   width: 10%;
+   background-color: $vert;
+   display: flex;
+   margin-left: 8%;
+   justify-content: center;
+}
 
 #La-palette_du_goût
 {
     display: flex;
     border: 1px transparent;
     background-image: url(../images/restaurants/lapalettedugout.jpg);
-    background-position: bottom ;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
-    height: 20em;
-    flex-direction: column;  
+    width: 70%;
+    flex-direction: row-reverse;
     margin-bottom: 5%; 
-    width: 99%;  
+    height: 15em;
+     
+}
 
+
+#la-note-enchanté
+{
+    display: flex;
+    border: 1px transparent;
+    background-image: url(../images/restaurants/la-note-enchantée.jpg);    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    flex-direction: row-reverse;
+    margin-bottom: 5%; 
+    margin-top:5%; 
+    width: 70%;
+    height: 15em;
+}
+
+
+#a-la-française
+{
+    display: flex;
+    border: 1px transparent;
+    background-image: url(../images/restaurants/alafrançaise.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    width: 70%;
+    flex-direction: row;
+    margin-bottom: 5%;   
+    margin-top: 5%; 
+    height: 15em;
+}
+
+
+#le-delice-des-sens
+{
+    display: flex;
+    border: 1px transparent;
+    background-image: url(../images/restaurants/delicedessens.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    width: 70%;
+    flex-direction: row;
+    margin-bottom: 5%;   
+    margin-top: 5%; 
+    height: 15em;
+}
+
+
+
+@media  all and (max-width : 800px) and (min-width:100px)
+{
+
+#Restaurants
+ {
+     display: flex;
+    height: auto;
+    border:transparent 1px;
+    border-radius: 0%;
+    background-color: rgb(250, 246, 246);
+    flex-direction: column;      
+    width: 100%;
+    
+ }
+
+ #La-palette_du_goût
+ {
+     display: flex;
+     border: 1px transparent;
+     background-image: url(../images/restaurants/lapalettedugout.jpg);
+     background-position: bottom ;
+     background-size: cover;
+     background-repeat: no-repeat;
+     border-radius: 30px;
+     height: 20em;
+     flex-direction: column;  
+     margin-bottom: 5%; 
+     width: 99%;  
+ 
 }
 
 
@@ -67,7 +177,6 @@
 #le-delice-des-sens
 {
     display: flex;
-    border: 1px transparent;
     background-image: url(../images/restaurants/delicedessens.jpg);
     background-position: center;
     background-size: cover;
@@ -86,13 +195,15 @@
     grid-template-columns: 4fr 1fr;
     background-color: white;
     width: 23.5em;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     padding-left: 1%;
     padding-bottom: 3%;
     flex-direction: column;
-    border: 1px solid black;
+   border-bottom: 1px solid black;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
     white-space: nowrap;
-    width: 99%; 
+    width: 98.4%; 
 }
 
 .text
@@ -101,10 +212,7 @@
   
 }
 
-.boite
-{
-    display: flex;
-}
+
 
 
 .new
@@ -124,14 +232,21 @@
 .coeurboite
 {
 
-    width: 50%;
+    width:100%;
     padding-top: 50%;
     color: red;
     justify-content: flex-end;
    margin-top: 5%;
    font-size: xx-large;
+   padding-left: 0%;
    
 }
+
+a
+    {
+        color:black ;
+    }
+
 
 }
 

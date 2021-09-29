@@ -1,7 +1,4 @@
 
-@media  all and (max-width : 800px) and (min-width:100px)
-{
-
 .bullelogo
 {
     color: white;
@@ -12,7 +9,7 @@
     cursor: pointer;
     flex-direction: column;
     background-color: $violet;
-    width: 10%;
+    width: 50%;
     height: 1.70em;
     margin-right: 2%;
 
@@ -32,6 +29,59 @@
     box-shadow: grey 0px 1px 1px 0px;
     height: 2.9em;
     background-color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media  all and (max-width : 800px) and (min-width:100px)
+{
+
+#Fontionement
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.bullelogo
+{
+    color: white;
+    border-radius: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items:center;
+    cursor: pointer;
+    flex-direction: column;
+    background-color: $violet;
+    width: 10%;
+    height: 1.70em;
+   
+    
+
+}
+
+.logo
+{
+    border-radius: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items:center;
+    width: 80%;
+    padding-right: 10%;
+    margin-bottom: 5%;
+    align-content: center;
+    box-shadow: grey 0px 1px 1px 0px;
+    height: 2.9em;
+    background-color: whitesmoke;
+   
+ 
 }
 
 }
