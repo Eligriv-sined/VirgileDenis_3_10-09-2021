@@ -1,6 +1,4 @@
 
-
-
 footer
 {
     display: flex;
@@ -8,6 +6,8 @@ footer
     background-color: rgb(65, 60, 60);
     color: white;
     width: auto;
+    text-align: center;
+    
 a
 {
     color: white;
@@ -26,4 +26,14 @@ a
         margin-bottom: 2%;
         
     }
+}
+
+
+
+@media  all and (max-width : 800px) and (min-width:100px){
+
+footer
+{
+    text-align: none;
+}
 }

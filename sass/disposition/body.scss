@@ -6,7 +6,7 @@ body
     
    flex-direction: column; 
    margin: 0%;
-   text-align: center;
+   
    
    a 
    {
@@ -40,8 +40,13 @@ main
 .chargement
 {
     background-color:#16a085 ;
-    position : fixed;
+    position : relative;
     cursor : wait;   
+    height: 10em;
+    width: 100%;
+    padding-top: 10%;
+    color:  white;
+    text-align: center;
 }
 
 .loader
@@ -65,21 +70,26 @@ main
     height: 50px;
     position: absolute;
     top : -6px;
-    left: 0px;
-    border-top: 6px solid ;
+    left: -6px;
+    border: 6px solid ;
     border-radius: 50px;
-    border-top-color:#fff ;
-    animation: spin 1s linear infinite;
+    border-top-color:red ;
+    animation: spin 3s linear infinite;
 }
 
 @keyframes spin
 {
     0% {transform: rotate(0deg);}
-    100%{transform: rotate(360deg);}
+    100%  {transform: rotate(360deg);}
 
 }
 
+
+
 /*---fin du loader--*/
+
+
+
 
 @media  all and (max-width : 800px) and (min-width:100px)
 {
