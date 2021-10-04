@@ -565,7 +565,7 @@ body {
   display: flex;
   flex-direction: column-reverse;
   margin-top: -10%;
-  margin-bottom: 3%;
+  margin-bottom: 5%;
 }
 
 .menusnote {
@@ -615,6 +615,55 @@ body {
 
 .coeur {
   padding-left: 20%;
+}
+
+.checkbox {
+  background-color: #99E2D0;
+  height: 50;
+  position: relative;
+  opacity: 0;
+  display: none;
+  border: #99E2D0 1px solid;
+  width: 10%;
+  border-radius: 20px;
+}
+
+.boitemenus:hover > .checkbox {
+  display: flex;
+  animation: slideleft 5s;
+}
+
+@keyframes slideleft {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+.icocheck {
+  padding-top: 8%;
+  padding-left: 45%;
+  font-size: xx-large;
+  color: red;
+}
+
+/* transition menus vers le bas*/
+.animbas {
+  animation: slidedown 5s;
+}
+
+@keyframes slidedown {
+  from {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=stylesomf.css.map */
