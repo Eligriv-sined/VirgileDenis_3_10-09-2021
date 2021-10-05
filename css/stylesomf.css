@@ -2,11 +2,20 @@
 #Fonctionement {
   display: flex;
   flex-direction: column;
+  animation: fonctfondu 5s linear forwards;
 }
 #Fonctionement h2 {
   padding-left: 15%;
 }
 
+@keyframes fonctfondu {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .navfonct {
   display: inline-flex;
   padding-bottom: 2%;
@@ -93,14 +102,15 @@ main li {
 
 /*---spiner chargement----*/
 .chargement {
-  background-color: #16a085;
-  position: relative;
+  background-color: #faf6f6;
+  position: absolute;
   cursor: wait;
-  height: 10em;
+  height: 100%;
   width: 100%;
   padding-top: 10%;
-  color: white;
+  color: #9356DC;
   text-align: center;
+  animation: fonduload 5.5s linear forwards;
 }
 
 .loader {
@@ -125,7 +135,7 @@ main li {
   left: -6px;
   border: 6px solid;
   border-radius: 50px;
-  border-top-color: red;
+  border-top-color: #FF79DA;
   animation: spin 3s linear infinite;
 }
 
@@ -135,6 +145,16 @@ main li {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+@keyframes fonduload {
+  from {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  to {
+    transform: rotateY(-500px);
+    opacity: 0;
   }
 }
 /*---fin du loader--*/
@@ -626,11 +646,12 @@ body {
   border: #99E2D0 1px solid;
   width: 10%;
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .boitemenus:hover > .checkbox {
   display: flex;
-  animation: slideleft 5s;
+  animation: slideleft 5s forwards;
 }
 
 @keyframes slideleft {
@@ -664,6 +685,23 @@ body {
     transform: translateY(0px);
     opacity: 1;
   }
+}
+@keyframes slidedown2 {
+  0% {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(-70px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.animbas2 {
+  animation: slidedown2 5s 3s;
 }
 
 /*# sourceMappingURL=stylesomf.css.map */

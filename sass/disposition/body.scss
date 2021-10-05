@@ -39,15 +39,16 @@ main
 
 .chargement
 {
-    background-color:#16a085 ;
-    position : relative;
+    background-color:  #faf6f6 ;
+    position : absolute;
     cursor : wait;   
-    height: 10em;
+    height: 100%;
     width: 100%;
     padding-top: 10%;
-    color:  white;
+    color:  $violet;
     text-align: center;
-}
+    animation: fonduload 5.5s linear forwards;
+ }
 
 .loader
 {
@@ -73,7 +74,7 @@ main
     left: -6px;
     border: 6px solid ;
     border-radius: 50px;
-    border-top-color:red ;
+    border-top-color:$rose ;
     animation: spin 3s linear infinite;
 }
 
@@ -84,6 +85,13 @@ main
 
 }
 
+@keyframes fonduload 
+{
+   from {transform: translateY(0px);
+         opacity: 1 ; }
+    to{ transform: rotateY(-500px);
+        opacity: 0;}
+}
 
 
 /*---fin du loader--*/

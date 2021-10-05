@@ -8,13 +8,14 @@
      border: $vert 1px solid;
      width: 10%;
      border-radius: 20px;
+     overflow: hidden;
     
     }
 
     .boitemenus:hover > .checkbox
     {
         display: flex;
-       animation: slideleft 5s;
+       animation: slideleft 5s forwards;
     }
  
     @keyframes slideleft 
@@ -59,6 +60,31 @@
            transform: translateY(0px);
            opacity: 1;
        }
+    }
+
+    @keyframes slidedown2
+    {
+       0% {
+           transform: translateY(-80px);
+           opacity: 0;
+       }
+
+       10%{
+           transform: translateY(-70px);
+           opacity: 0;
+       }
+
+       100% {
+           transform: translateY(0px);
+           opacity: 1;
+       }
+
+    }
+
+
+    .animbas2
+    {
+            animation: slidedown2 5s 3s ;
     }
 
 
