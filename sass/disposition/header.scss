@@ -5,7 +5,16 @@ header
     text-align: center;
     align-items: center;
     width: 100%;
+    animation: opa 5s linear forwards;
+    
 }
+
+@keyframes opa {
+    from {opacity: 0;}
+    to   {opacity: 1;}   
+}
+
+
 .barrelogo
 {
    
