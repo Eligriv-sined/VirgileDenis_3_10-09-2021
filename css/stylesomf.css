@@ -102,10 +102,8 @@ main li {
 
 /*---spiner chargement----*/
 .chargement {
-  background-color: #faf6f6;
   position: absolute;
-  cursor: wait;
-  height: 100%;
+  height: 20.5%;
   width: 100%;
   padding-top: 10%;
   color: #9356DC;
@@ -139,24 +137,6 @@ main li {
   animation: spin 3s linear infinite;
 }
 
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes fonduload {
-  from {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-  to {
-    transform: rotateY(-500px);
-    opacity: 0;
-  }
-}
 /*---fin du loader--*/
 @media all and (max-width: 800px) and (min-width: 100px) {
   body {
@@ -170,6 +150,7 @@ main li {
 #Restaurants {
   width: 70%;
   align-self: center;
+  animation: opa 5s linear forwards;
 }
 
 .textresto {
@@ -376,12 +357,24 @@ main li {
     color: black;
   }
 }
+.headindex {
+  animation: opa 5s linear forwards;
+}
+
 header {
   text-align: center;
   align-items: center;
   width: 100%;
 }
 
+@keyframes opa {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .barrelogo {
   margin-bottom: 0.2%;
 }
@@ -702,6 +695,43 @@ body {
 }
 .animbas2 {
   animation: slidedown2 5s 3s;
+}
+
+@keyframes opa {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes fonduload {
+  from {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  to {
+    transform: rotateY(-500px);
+    opacity: 0;
+  }
+}
+@keyframes slideleft {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=stylesomf.css.map */
