@@ -1,94 +1,75 @@
   .checkbox
     {
-        background-color: $vert;
-        height: 50;
-     position: relative;
-     opacity: 0;
-     display: none;
-     border: $vert 1px solid;
-     width: 10%;
-     border-radius: 20px;
-     overflow: hidden;
     
     }
 
     .boitemenus:hover > .checkbox
     {
-        display: flex;
+       display: flex;
        animation: slideleft 5s forwards;
     }
  
-    @keyframes slideleft 
-    {
-       from {
-           transform: translateX(50px);
-           opacity: 0;
-       }
-
-       to {
-           transform: translateX(-0px);
-           opacity: 1;
-       }
-    
-    }
 
  .icocheck
  {
-     
-    padding-top: 8%;
-    padding-left: 45%;
     font-size: xx-large;
-    color: red;
-    
  }
 
-/* transition menus vers le bas*/
+
+/* transition menus vers le bas
+
+animbas == entré
+animbasp == plats
+annimbasd== dessert
+
+*/
 
 .animbas
 {
-    animation: slidedown 5s ;
+    animation: slidedown 2s forwards ;
 }
 
-@keyframes slidedown 
-    {
-       from {
-           transform: translateY(-80px);
-           opacity: 0;
-       }
 
-       to {
-           transform: translateY(0px);
-           opacity: 1;
-       }
-    }
+.animbas2
+ {
+  animation: slidedown2 4s forwards  ;
+ }
 
-    @keyframes slidedown2
-    {
-       0% {
-           transform: translateY(-80px);
-           opacity: 0;
-       }
-
-       10%{
-           transform: translateY(-70px);
-           opacity: 0;
-       }
-
-       100% {
-           transform: translateY(0px);
-           opacity: 1;
-       }
-
-    }
-
-
-    .animbas2
-    {
-            animation: slidedown2 5s 3s ;
-    }
-
-
-@media  all and (max-width : 800px) and (min-width:100px)
+.animbas3
 {
-    
+ animation: slidedown3 6s forwards ;
+}
+
+
+.animbasp
+{
+    animation: slidedown 8s  forwards ;
+}
+
+
+.animbas2p
+ {
+  animation: slidedown2 10s  forwards  ;
+ }
+
+.animbas3p
+{
+ animation: slidedown3 12s  forwards ;
+}
+
+
+.animbasd
+{
+    animation: slidedown 14s  forwards ;
+}
+
+
+.animbas2d
+ {
+  animation: slidedown2 16s  forwards  ;
+ }
+
+.animbas3d
+{
+ animation: slidedown3 18s  forwards ;
 }
