@@ -6,8 +6,13 @@
   
 }
 
+a 
+{
+    color: black;
+}
 
-.textresto
+
+.textresto 
 {
    
     display: flex;
@@ -22,14 +27,25 @@
 
 .coeurboite
 {
-  
-    width: 50%;
-   padding-left: 40%;
-    color: red;
+    width: 12%;
+    margin-left:39% ;
+    border-radius: 20px;
+    padding:.2em;
     justify-content: flex-end;
-   margin-top: 25%;
-   font-size: xx-large;
+    margin-top: 25%;
+    font-size: xx-large;
    
+}
+.fa-heart::before {
+    
+    font-weight: normal;
+    transition: color 5s , font-weight 4s ;
+}
+.fa-heart:hover::before{
+    
+    font-weight: bolder;
+    color:red;
+    
 }
 
 .new
@@ -239,12 +255,26 @@
 
     width:100%;
     padding-top: 50%;
-    color: red;
+   
     justify-content: flex-end;
    margin-top: 5%;
    font-size: xx-large;
    padding-left: 0%;
    
+}
+
+}
+.fa-heart::before {
+    
+    height: 0%;
+    font-weight: normal;
+    transition: color 5s , font-weight 4s  , height 4s;
+}
+.fa-heart:hover::before{
+    height: 100%;
+    font-weight: bolder;
+    color:red;
+    
 }
 
 a
@@ -253,5 +283,5 @@ a
     }
 
 
-}
+
 

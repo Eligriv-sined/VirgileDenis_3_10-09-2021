@@ -153,6 +153,10 @@ main li {
   animation: opa 5s linear forwards;
 }
 
+a {
+  color: black;
+}
+
 .textresto {
   display: flex;
   flex-direction: column;
@@ -165,12 +169,23 @@ main li {
 }
 
 .coeurboite {
-  width: 50%;
-  padding-left: 40%;
-  color: red;
+  width: 12%;
+  margin-left: 39%;
+  border-radius: 20px;
+  padding: 0.2em;
   justify-content: flex-end;
   margin-top: 25%;
   font-size: xx-large;
+}
+
+.fa-heart::before {
+  font-weight: normal;
+  transition: color 5s, font-weight 4s;
+}
+
+.fa-heart:hover::before {
+  font-weight: bolder;
+  color: red;
 }
 
 .new {
@@ -346,17 +361,28 @@ main li {
   .coeurboite {
     width: 100%;
     padding-top: 50%;
-    color: red;
     justify-content: flex-end;
     margin-top: 5%;
     font-size: xx-large;
     padding-left: 0%;
   }
-
-  a {
-    color: black;
-  }
 }
+.fa-heart::before {
+  height: 0%;
+  font-weight: normal;
+  transition: color 5s, font-weight 4s, height 4s;
+}
+
+.fa-heart:hover::before {
+  height: 100%;
+  font-weight: bolder;
+  color: red;
+}
+
+a {
+  color: black;
+}
+
 .headindex {
   animation: opa 5s linear forwards;
 }
@@ -622,15 +648,6 @@ body {
   padding-left: 20%;
 }
 
-.boitemenus:hover > .checkbox {
-  display: flex;
-  animation: slideleft 5s forwards;
-}
-
-.icocheck {
-  font-size: xx-large;
-}
-
 /* transition menus vers le bas
 
 animbas == entré
@@ -678,6 +695,28 @@ annimbasd== dessert
   animation: slidedown 20s forwards;
 }
 
+/* checkbox cotée des boites menus*/
+.checkbox {
+  background-color: #99E2D0;
+  width: 0%;
+  border-radius: 20px;
+  justify-content: center;
+  transition: width 2s;
+}
+
+.icocheck {
+  font-size: xx-large;
+}
+
+.boitemenus:hover > .checkbox {
+  width: 15%;
+  border-radius: 20px;
+}
+
+.boitemenus:hover > .icocheck {
+  animation: spin 2s infinite;
+}
+
 @keyframes opa {
   from {
     opacity: 0;
@@ -702,16 +741,6 @@ annimbasd== dessert
   to {
     transform: rotateY(-500px);
     opacity: 0;
-  }
-}
-@keyframes slideleft {
-  from {
-    transform: translateX(50px);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0px);
-    opacity: 1;
   }
 }
 @keyframes slidedown {
