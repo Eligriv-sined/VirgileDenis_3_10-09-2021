@@ -367,14 +367,6 @@ header {
   width: 100%;
 }
 
-@keyframes opa {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 .barrelogo {
   margin-bottom: 0.2%;
 }
@@ -630,71 +622,60 @@ body {
   padding-left: 20%;
 }
 
-.checkbox {
-  background-color: #99E2D0;
-  height: 50;
-  position: relative;
-  opacity: 0;
-  display: none;
-  border: #99E2D0 1px solid;
-  width: 10%;
-  border-radius: 20px;
-  overflow: hidden;
-}
-
 .boitemenus:hover > .checkbox {
   display: flex;
   animation: slideleft 5s forwards;
 }
 
-@keyframes slideleft {
-  from {
-    transform: translateX(50px);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0px);
-    opacity: 1;
-  }
-}
 .icocheck {
-  padding-top: 8%;
-  padding-left: 45%;
   font-size: xx-large;
-  color: red;
 }
 
-/* transition menus vers le bas*/
+/* transition menus vers le bas
+
+animbas == entré
+animbasp == plats
+annimbasd== dessert
+
+*/
 .animbas {
-  animation: slidedown 5s;
+  animation: slidedown 2s forwards;
 }
 
-@keyframes slidedown {
-  from {
-    transform: translateY(-80px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
-@keyframes slidedown2 {
-  0% {
-    transform: translateY(-80px);
-    opacity: 0;
-  }
-  10% {
-    transform: translateY(-70px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
 .animbas2 {
-  animation: slidedown2 5s 3s;
+  animation: slidedown2 4s forwards;
+}
+
+.animbas3 {
+  animation: slidedown3 6s forwards;
+}
+
+.animbas4 {
+  animation: slidedown3 8s forwards;
+}
+
+.animbasp {
+  animation: slidedown 10s forwards;
+}
+
+.animbas2p {
+  animation: slidedown2 12s forwards;
+}
+
+.animbas3p {
+  animation: slidedown3 14s forwards;
+}
+
+.animbasd {
+  animation: slidedown 16s forwards;
+}
+
+.animbas2d {
+  animation: slidedown2 18s forwards;
+}
+
+.animbas3d {
+  animation: slidedown 20s forwards;
 }
 
 @keyframes opa {
@@ -730,6 +711,48 @@ body {
   }
   to {
     transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slidedown {
+  0% {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes slidedown2 {
+  0% {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes slidedown3 {
+  0% {
+    transform: translateY(-150px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
     opacity: 1;
   }
 }
