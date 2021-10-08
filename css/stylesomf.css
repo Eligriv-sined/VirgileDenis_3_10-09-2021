@@ -8,14 +8,6 @@
   padding-left: 15%;
 }
 
-@keyframes fonctfondu {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 .navfonct {
   display: inline-flex;
   padding-bottom: 2%;
@@ -626,31 +618,75 @@ body {
 }
 
 .boitemenus {
-  width: 95%;
-  margin-bottom: 5%;
-  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 20px;
-  box-shadow: 1px 1px 1px 1px grey;
-  padding-left: 1%;
-  height: auto;
+  display: flex;
+  overflow: hidden;
+  max-width: 99%;
+}
+
+.boitemenus:hover .icone {
+  margin-right: 0;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.boitemenus:hover i {
+  transform: rotate(360deg);
+  transition-duration: 1s;
+}
+
+.descrip {
+  width: 100%;
+  display: flex;
+  max-width: 99%;
+  overflow: hidden;
+}
+
+.textedescrip {
+  width: 100%;
+  margin-left: 1rem;
+  max-width: 99%;
+  overflow: hidden;
+}
+
+.prix {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  max-width: 99%;
+}
+
+.icone {
+  width: 7rem;
+  background: #99e2d0;
   display: flex;
   justify-content: center;
-  align-content: center;
-  justify-content: space-between;
+  align-items: center;
+  margin-right: -7rem;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.icone > i {
+  color: #99e2d0;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: white;
+  transition-duration: 0.5s;
+}
+
+.textedescrip > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 100%;
 }
 
 .underlinevert {
   border-bottom: #99E2D0 1px solid;
   width: 8%;
-}
-
-.coeur {
-  padding-left: 20%;
-}
-
-.boitemenus > p {
-  text-overflow: ellipsis;
-  flex-wrap: nowrap;
 }
 
 /* transition menus vers le bas
@@ -701,22 +737,63 @@ annimbasd== dessert
 }
 
 /* checkbox cotée des boites menus*/
-.checkbox {
-  background-color: #99E2D0;
-  width: 0%;
-  border-radius: 20px;
+.boitemenus:hover .icone {
+  margin-right: 0;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.boitemenus:hover i {
+  transform: rotate(360deg);
+  transition-duration: 1s;
+}
+
+.descrip {
+  width: 100%;
+  display: flex;
+  max-width: 99%;
+  overflow: hidden;
+}
+
+.textedescrip {
+  width: 100%;
+  margin-left: 1rem;
+  max-width: 99%;
+  overflow: hidden;
+}
+
+.prix {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  max-width: 99%;
+}
+
+.icone {
+  width: 7rem;
+  background: #99e2d0;
+  display: flex;
   justify-content: center;
-  transition: width 2s;
+  align-items: center;
+  margin-right: -7rem;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
 }
 
-.boitemenus:hover > .checkbox {
-  width: 15%;
-  border-radius: 20px;
+.icone > i {
+  color: #99e2d0;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: white;
+  transition-duration: 0.5s;
 }
 
-.a-check-circle {
-  color: #99E2D0;
-  background-color: white;
+.textedescrip > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 100%;
 }
 
 @keyframes opa {

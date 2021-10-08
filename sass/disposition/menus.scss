@@ -35,30 +35,80 @@
  background-color: whitesmoke;
  border-radius: 30px;
  padding-left: 2%;
- 
-   
 }
+
 
 
 
 .boitemenus
 {
     
-    width: 95%;
-    margin-bottom: 5%;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 1px 1px 1px 1px grey;
-    padding-left: 1%;
-    height: auto;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 20px;
+        display: flex;
+        overflow: hidden;
+       max-width: 99%;
+   
+} 
+
+.boitemenus:hover .icone {
+    margin-right: 0;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.boitemenus:hover i {
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+.descrip {
+    width: 100%;
+    display: flex;
+  max-width: 99%;
+  overflow: hidden;
+}
+.textedescrip {
+    width: 100%;
+    margin-left: 1rem;
+  max-width: 99%;
+  overflow: hidden;
+}
+.prix {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+  max-width: 99%;
+}
+.icone {
+    width: 7rem;
+    background: #99e2d0;
     display: flex;
     justify-content: center;
-    align-content: center;
-    justify-content: space-between;
-    
-
-    
+    align-items: center;
+    margin-right: -7rem;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
 }
+.icone > i {
+    color: #99e2d0;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background: white;
+    transition-duration: 0.5s;
+}
+
+.textedescrip > *{
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ overflow: hidden;
+ max-width: 100%;
+}
+
+
+
+
+
+
 
 .underlinevert
 {
@@ -66,14 +116,4 @@
     width: 8%;
 }
 
-.coeur
-{
-    padding-left: 20%;
-}
 
-
-.boitemenus > p 
-{
-    text-overflow: ellipsis;
-    flex-wrap: nowrap;
-}
