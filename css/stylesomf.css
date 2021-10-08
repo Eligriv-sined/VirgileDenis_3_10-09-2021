@@ -648,6 +648,11 @@ body {
   padding-left: 20%;
 }
 
+.boitemenus > p {
+  text-overflow: ellipsis;
+  flex-wrap: nowrap;
+}
+
 /* transition menus vers le bas
 
 animbas == entré
@@ -704,17 +709,14 @@ annimbasd== dessert
   transition: width 2s;
 }
 
-.icocheck {
-  font-size: xx-large;
-}
-
 .boitemenus:hover > .checkbox {
   width: 15%;
   border-radius: 20px;
 }
 
-.boitemenus:hover > .icocheck {
-  animation: spin 2s infinite;
+.a-check-circle {
+  color: #99E2D0;
+  background-color: white;
 }
 
 @keyframes opa {
@@ -741,6 +743,14 @@ annimbasd== dessert
   to {
     transform: rotateY(-500px);
     opacity: 0;
+  }
+}
+@keyframes fonctfondu {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 @keyframes slidedown {

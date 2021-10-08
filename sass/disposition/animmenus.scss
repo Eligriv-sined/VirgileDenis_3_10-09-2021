@@ -73,26 +73,23 @@ annimbasd== dessert
   width: 0%;
   border-radius: 20px;
   justify-content: center;
-  transition: width 2s , ;
+  transition: width 2s ;
+ 
+ 
 }
-
-.icocheck
-{
-  font-size: xx-large;
-}
-
 
 .boitemenus:hover > .checkbox 
 {
-  width: 15%;
+  
+  width:15%;
    border-radius: 20px;
 
 }
-.boitemenus:hover > .icocheck
+ .a-check-circle
 {
-    animation: spin 2s infinite;
+  color: $vert;
+  background-color: white;
 }
-
 
 
 
