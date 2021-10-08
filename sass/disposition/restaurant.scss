@@ -3,7 +3,7 @@
     width: 70%;
     align-self: center;
     animation: opa 5s linear forwards;
-  
+    background-color: rgb(250, 246, 246);
 }
 
 a 
@@ -44,7 +44,7 @@ a
 .fa-heart:hover::before{
     
     font-weight: bolder;
-    color:red;
+    color:rgba($color: #b30f9d, $alpha: 1.0)
     
 }
 
@@ -216,7 +216,6 @@ a
     display: grid;
     grid-template-columns: 4fr 1fr;
     background-color: white;
-    width: 23.5em;
     border-radius: 0px 0px 10px 10px;
     padding-left: 1%;
     padding-bottom: 3%;
@@ -252,15 +251,12 @@ a
 
 .coeurboite
 {
-
-    width:100%;
+    width:15%;
     padding-top: 50%;
-   
     justify-content: flex-end;
    margin-top: 5%;
    font-size: xx-large;
    padding-left: 0%;
-   
 }
 
 }
@@ -273,7 +269,7 @@ a
 .fa-heart:hover::before{
     height: 100%;
     font-weight: bolder;
-    color:red;
+    color:linear-gradient( $rose, $violet);
     
 }
 

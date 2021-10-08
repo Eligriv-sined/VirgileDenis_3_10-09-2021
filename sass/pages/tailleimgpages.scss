@@ -1,0 +1,45 @@
+#imgfondpalette
+{
+    height: 20rem;
+}
+
+#imgfondnote
+{
+    height: 70em;
+   
+}
+
+#imgfondfrançaise
+{
+    height: 50em;
+}
+
+#imgfondimgfonddelice
+{
+    height: 25rem;
+}
+
+
+
+@media  all and (max-width : 800px) and (min-width:100px)
+{
+#imgfondpalette
+{
+    height: 20rem;
+}
+
+#imgfondnote
+{
+    height: 25rem;
+}
+
+#imgfondfrançaise
+{
+    height: 20rem;
+}
+
+#imgfondimgfonddelice
+{
+    height: 25rem;
+}
+}

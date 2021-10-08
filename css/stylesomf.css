@@ -37,14 +37,14 @@
 .textfonct {
   border-radius: 30px;
   border: black 1px solid;
-  background-color: grey;
+  background-color: white;
   width: 50%;
   height: 2em;
   box-shadow: 5px 5px 5px grey;
   padding-top: 0.5%;
 }
 .textfonct:hover {
-  background-color: #a5a1a1;
+  background-color: #e0e0e0;
 }
 
 .textfonct:hover > .ico {
@@ -66,7 +66,7 @@
   .textfonct {
     border-radius: 30px;
     border: black 1px solid;
-    background-color: grey;
+    background-color: white;
     width: 70%;
     height: 2em;
     box-shadow: 5px 5px 5px grey;
@@ -151,6 +151,7 @@ main li {
   width: 70%;
   align-self: center;
   animation: opa 5s linear forwards;
+  background-color: #faf6f6;
 }
 
 a {
@@ -185,7 +186,7 @@ a {
 
 .fa-heart:hover::before {
   font-weight: bolder;
-  color: red;
+  color: #b30f9d;
 }
 
 .new {
@@ -330,7 +331,6 @@ a {
     display: grid;
     grid-template-columns: 4fr 1fr;
     background-color: white;
-    width: 23.5em;
     border-radius: 0px 0px 10px 10px;
     padding-left: 1%;
     padding-bottom: 3%;
@@ -359,7 +359,7 @@ a {
   }
 
   .coeurboite {
-    width: 100%;
+    width: 15%;
     padding-top: 50%;
     justify-content: flex-end;
     margin-top: 5%;
@@ -376,7 +376,7 @@ a {
 .fa-heart:hover::before {
   height: 100%;
   font-weight: bolder;
-  color: red;
+  color: linear-gradient(#FF79DA, #9356DC);
 }
 
 a {
