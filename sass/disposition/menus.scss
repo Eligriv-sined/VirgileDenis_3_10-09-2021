@@ -51,64 +51,6 @@
    
 } 
 
-.boitemenus:hover .icone {
-    margin-right: 0;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
-}
-.boitemenus:hover i {
-    transform: rotate(360deg);
-    transition-duration: 1s;
-}
-.descrip {
-    width: 100%;
-    display: flex;
-  max-width: 99%;
-  overflow: hidden;
-}
-.textedescrip {
-    width: 100%;
-    margin-left: 1rem;
-  max-width: 99%;
-  overflow: hidden;
-}
-.prix {
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 1rem;
-    margin-right: 1rem;
-  max-width: 99%;
-}
-.icone {
-    width: 7rem;
-    background: #99e2d0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: -7rem;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
-}
-.icone > i {
-    color: #99e2d0;
-    padding: 0.5rem;
-    border-radius: 50%;
-    background: white;
-    transition-duration: 0.5s;
-}
-
-.textedescrip > *{
- white-space: nowrap;
- text-overflow: ellipsis;
- overflow: hidden;
- max-width: 100%;
-}
-
-
-
-
-
-
 
 .underlinevert
 {

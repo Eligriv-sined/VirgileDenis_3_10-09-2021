@@ -67,6 +67,10 @@ annimbasd== dessert
 
 /* checkbox cotée des boites menus*/
 
+.boitemenus
+ {
+   margin-bottom: 3%;
+ }
 
 .boitemenus:hover .icone {
   margin-right: 0;
@@ -80,13 +84,13 @@ annimbasd== dessert
 .descrip {
   width: 100%;
   display: flex;
-max-width: 99%;
+  max-width: 100%;
 overflow: hidden;
 }
 .textedescrip {
   width: 100%;
   margin-left: 1rem;
-max-width: 99%;
+  max-width: 100%;
 overflow: hidden;
 }
 .prix {
@@ -94,7 +98,7 @@ overflow: hidden;
   align-items: flex-end;
   margin-bottom: 1rem;
   margin-right: 1rem;
-max-width: 99%;
+max-width: 100%;
 }
 .icone {
   width: 7rem;
