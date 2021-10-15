@@ -2,7 +2,7 @@
 {
     width: 80%;
     align-self: center;
-    animation: opa 5s linear forwards;
+    animation: opa 2s linear forwards;
     background-color: rgb(250, 246, 246);
 }
 
@@ -21,63 +21,9 @@ a
     width: 30%;
     margin-right: 53%;
     border-radius: 30px 0px 0px 30px;  
-    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
-
-
-.coeur{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    z-index: 3
-  }
-  
-  .coeur>.fas{
-    opacity: 0;
-    transition-duration: 0.5s;
-    background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
-  }
-  
-  .coeur>i{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  input{
-    position: absolute;
-    width: 4rem;
-    height: 4rem;
-    opacity: 0;
-    cursor: pointer;
-    z-index: 3;
-  }
-  
-  .fa-heart{
-    font-size: 3rem;
-  }
-  
-  
-  input:checked ~ .far { /*clique N1*/
-    transition-duration: 0.5s;
-    opacity: 0;
-  }
-  
-  input:checked ~ .fas{ /*clique N2*/
-    transition-duration: 0.5s;
-    opacity: 1;
-  }
-
-
-
 
 
 .new
@@ -249,15 +195,21 @@ a
     grid-template-columns: 4fr 1fr;
     background-color: white;
     border-radius: 0px 0px 30px 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding-bottom: 3%;
     flex-direction: column;
     white-space: nowrap;
-    width: 23em;   
+    width: 22.8em;   
 }
+
+
+
+
 
 .text
 {
-   width: 70%; 
+   width: 100%; 
+   padding-left:2% ;
   
 }
 

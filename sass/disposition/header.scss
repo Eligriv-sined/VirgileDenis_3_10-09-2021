@@ -1,16 +1,21 @@
 
 .headindex
 {
-   animation: opa 5s linear forwards;
+   animation: opa 2s linear forwards;
 }
 header
 {
+  
     text-align: center;
     align-items: center;
     width: 100%;
     
 }
 
+.headmenus
+{
+   display: flex;
+}
 
 
 .barrelogo
@@ -22,8 +27,8 @@ header
 .logohead
 {
    display: flex;
-   width: 20%;
-   padding-left: 40%; 
+   max-width: 100%;
+   padding-left: 33%; 
    height: 5em;
 }
 .btn
@@ -98,8 +103,8 @@ header
 .logohead
 {
    display: flex;
-   width: 70%;
-  padding-left: 15%;
+   width: 80%;
+  padding-left: 7%;
 }
 
 .btn
@@ -149,6 +154,13 @@ header
 .headmenus
 {
   display: flex;
+  max-width: 100%;
+}
+
+.headmenus > a 
+
+{
+  width: 5%;
 }
 
 
