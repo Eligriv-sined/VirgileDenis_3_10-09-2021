@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   animation: fonctfondu 2s linear forwards;
+  margin-top: 5%;
 }
 #Fonctionement h2 {
   padding-left: 15%;
@@ -20,18 +21,25 @@
   color: white;
   border-radius: 30px;
   background-color: #9356DC;
-  width: 3%;
-  height: 2em;
+  width: 1.4%;
+  height: 1.5em;
   position: absolute;
-  left: 21%;
+  left: 34.5%;
   padding-top: 0.5%;
+  font-size: xx-small;
+  margin-top: 0.7%;
+}
+
+.bulle > p {
+  margin-top: -15%;
+  font-size: small;
 }
 
 .textfonct {
   border-radius: 30px;
   background-color: white;
-  width: 55%;
-  height: 2em;
+  width: 30%;
+  height: 2.5em;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding-top: 0.5%;
 }
@@ -88,10 +96,6 @@
 
   .textfonct > i {
     padding-right: 10%;
-  }
-
-  .textfonct > p {
-    padding-left: 5%;
   }
 
   .ico {
@@ -169,14 +173,24 @@ main li {
   }
 }
 #Restaurants {
-  width: 80%;
+  width: 100%;
   align-self: center;
   animation: opa 2s linear forwards;
   background-color: #faf6f6;
 }
 
+#Restaurants > h2 {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
 a {
   color: black;
+}
+
+.text {
+  text-align: center;
 }
 
 .textresto {
@@ -193,12 +207,15 @@ a {
   height: 3.5em;
   color: #0b5e0b;
   border: 1px solid #99E2D0;
-  border-radius: 10px;
   width: 10%;
   background-color: #99E2D0;
   display: flex;
   margin-left: 8%;
   justify-content: center;
+}
+
+.new > p {
+  font-weight: bolder;
 }
 
 #La-palette_du_goût {
@@ -341,19 +358,23 @@ a {
 
   .text {
     width: 100%;
-    padding-left: 2%;
+    padding-left: 5%;
+    text-align: left;
+  }
+
+  .new > p {
+    margin-top: 9%;
   }
 
   .new {
-    height: 3.5em;
+    height: 2em;
     color: #0b5e0b;
     border: 1px solid #99E2D0;
-    border-radius: 10px;
     width: 18%;
     background-color: #99E2D0;
     display: flex;
     margin-left: 80%;
-    margin-bottom: 35%;
+    margin-bottom: 40%;
     margin-top: 8%;
   }
 }
@@ -372,7 +393,9 @@ header {
 }
 
 .barrelogo {
-  margin-bottom: 0.2%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding-bottom: 3%;
+  padding-top: 3%;
 }
 
 .logohead {
@@ -429,13 +452,13 @@ header {
   }
 
   .barrelogo {
-    margin-bottom: 0.2%;
+    max-width: 100%;
   }
 
   .logohead {
     display: flex;
-    width: 80%;
-    padding-left: 7%;
+    height: 2.5em;
+    padding-left: 25%;
   }
 
   .btn {
@@ -453,14 +476,14 @@ header {
   }
 
   .explo {
-    border-radius: 10px;
-    margin-top: 2%;
-    height: 15em;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
     white-space: nowrap;
+    background-color: #faf6f6;
+    padding-bottom: 5%;
   }
 
   .retour {
@@ -471,8 +494,7 @@ header {
   }
 
   #localisation {
-    background-color: whitesmoke;
-    color: grey;
+    background-color: rgba(241, 238, 238, 0.815);
   }
 
   .headmenus {
@@ -481,6 +503,10 @@ header {
   }
 
   .headmenus > a {
+    width: 5%;
+  }
+
+  .headmenus > i {
     width: 5%;
   }
 }
@@ -630,43 +656,43 @@ annimbasd== dessert
 
 */
 .animbas {
-  animation: slidedown 1s forwards;
+  animation: slidedown 0.5s forwards;
 }
 
 .animbas2 {
-  animation: slidedown2 2s forwards;
+  animation: slidedown2 1s forwards;
 }
 
 .animbas3 {
-  animation: slidedown3 3s forwards;
+  animation: slidedown3 1.5s forwards;
 }
 
 .animbas4 {
-  animation: slidedown3 4s forwards;
+  animation: slidedown3 2s forwards;
 }
 
 .animbasp {
-  animation: slidedown 5s forwards;
+  animation: slidedown 2.5s forwards;
 }
 
 .animbas2p {
-  animation: slidedown2 6s forwards;
+  animation: slidedown2 3s forwards;
 }
 
 .animbas3p {
-  animation: slidedown3 7s forwards;
+  animation: slidedown3 3.5s forwards;
 }
 
 .animbasd {
-  animation: slidedown 8s forwards;
+  animation: slidedown 4s forwards;
 }
 
 .animbas2d {
-  animation: slidedown2 9s forwards;
+  animation: slidedown2 4.5s forwards;
 }
 
 .animbas3d {
-  animation: slidedown 10s forwards;
+  animation: slidedown 5s forwards;
 }
 
 /* checkbox cotée des boites menus*/
@@ -832,6 +858,10 @@ input:checked ~ .fas {
 
   .coeurmenus > .fas {
     padding-top: 9%;
+  }
+
+  .fa-heart {
+    font-size: 80px;
   }
 }
 @keyframes opa {

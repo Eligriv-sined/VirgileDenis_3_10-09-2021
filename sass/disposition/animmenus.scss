@@ -10,57 +10,57 @@ annimbasd== dessert
 
 .animbas
 {
-    animation: slidedown 1s forwards ;
+    animation: slidedown 0.5s forwards ;
 }
 
 
 .animbas2
  {
-  animation: slidedown2 2s forwards  ;
+  animation: slidedown2 1s forwards  ;
  }
 
 .animbas3
 {
- animation: slidedown3 3s forwards ;
+ animation: slidedown3 1.5s forwards ;
 }
 
 .animbas4
 {
- animation: slidedown3 4s forwards ;
+ animation: slidedown3 2s forwards ;
 }
 
 
 .animbasp
 {
-    animation: slidedown 5s  forwards ;
+    animation: slidedown 2.5s  forwards ;
 }
 
 
 .animbas2p
  {
-  animation: slidedown2 6s  forwards  ;
+  animation: slidedown2 3s  forwards  ;
  }
 
 .animbas3p
 {
- animation: slidedown3 7s  forwards ;
+ animation: slidedown3 3.5s  forwards ;
 }
 
 
 .animbasd
 {
-    animation: slidedown 8s  forwards ;
+    animation: slidedown 4s  forwards ;
 }
 
 
 .animbas2d
  {
-  animation: slidedown2 9s  forwards  ;
+  animation: slidedown2 4.5s  forwards  ;
  }
 
 .animbas3d
 {
- animation: slidedown 10s  forwards ;
+ animation: slidedown 5s  forwards ;
 }
 
 
@@ -244,13 +244,18 @@ input:checked ~ .fas{
 .coeurmenus > .far
 {
           padding-top: 9%;
+        
 
 }
 .coeurmenus > .fas
 {
           padding-top: 9%;
+     
 
 }
 
+.fa-heart{
+   font-size:80px;
+}
 
 }
