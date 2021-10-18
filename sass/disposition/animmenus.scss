@@ -219,13 +219,15 @@ input{
 /*modif general pour coeur*/
 
 
-.fa-heart{
+.fa-heart
+{
+
   font-size: xx-large;
 }
 
 
 input:checked ~ .far { 
-  transition-duration: 0.5;
+  transition-duration: 0.5s;
   opacity: 0;
 }
 
@@ -243,19 +245,19 @@ input:checked ~ .fas{
 {
 .coeurmenus > .far
 {
-          padding-top: 9%;
+          padding-top: 12%;
         
 
 }
 .coeurmenus > .fas
 {
-          padding-top: 9%;
+          padding-top: 12%;
      
 
 }
 
 .fa-heart{
-   font-size:80px;
+   font-size:50px;
 }
 
 }

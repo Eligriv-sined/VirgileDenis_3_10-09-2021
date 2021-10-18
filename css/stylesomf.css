@@ -2,7 +2,7 @@
 #Fonctionement {
   display: flex;
   flex-direction: column;
-  animation: fonctfondu 2s linear forwards;
+  animation: fonctfondu 3s linear forwards;
   margin-top: 5%;
 }
 #Fonctionement h2 {
@@ -133,7 +133,7 @@ main li {
   padding-top: 10%;
   color: #9356DC;
   text-align: center;
-  animation: fonduload 2.2s linear forwards;
+  animation: fonduload 3s linear forwards;
 }
 
 .loader {
@@ -204,6 +204,7 @@ a {
 }
 
 .new {
+  border-radius: 5px;
   height: 3.5em;
   color: #0b5e0b;
   border: 1px solid #99E2D0;
@@ -379,7 +380,7 @@ a {
   }
 }
 .headindex {
-  animation: opa 2s linear forwards;
+  animation: opa 3s linear forwards;
 }
 
 header {
@@ -517,7 +518,7 @@ footer {
   color: white;
   width: auto;
   text-align: center;
-  animation: opa 2s forwards;
+  animation: opa 3s forwards;
 }
 footer a {
   color: white;
@@ -841,7 +842,7 @@ input {
 }
 
 input:checked ~ .far {
-  transition-duration: 0.5;
+  transition-duration: 0.5s;
   opacity: 0;
 }
 
@@ -853,15 +854,15 @@ input:checked ~ .fas {
 /* Fin de lanim du coeur*/
 @media all and (min-width: 800px) {
   .coeurmenus > .far {
-    padding-top: 9%;
+    padding-top: 12%;
   }
 
   .coeurmenus > .fas {
-    padding-top: 9%;
+    padding-top: 12%;
   }
 
   .fa-heart {
-    font-size: 80px;
+    font-size: 50px;
   }
 }
 @keyframes opa {
